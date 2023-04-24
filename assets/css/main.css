@@ -36,6 +36,10 @@ body {
   overflow-x: hidden
 }
 
+label{
+  color: var(--color-default);
+}
+
 a {
   color: var(--color-white);
   text-decoration: none;
@@ -830,12 +834,10 @@ section {
   font-weight: 700;
   padding: 0;
   margin: 0 0 20px 0;
-}
-
-.recent-posts .title a {
   color: var(--color-default);
   transition: 0.3s;
 }
+
 
 .recent-posts .title a:hover {
   color: var(--color-blue);
