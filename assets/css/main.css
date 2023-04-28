@@ -18,6 +18,7 @@
   --color-beige: #C4AD9F; 
   --color-blue: #315A70;
   --color-light-blue: #B5FFE8;
+  --color-hover-blue: #68D8C3;
   --color-white: #fff
 }
 /* Smooth scroll behavior */
@@ -617,7 +618,7 @@ section {
 }
 
 .services .service-item:hover .icon:before {
-  background: var(--color-light-blue);
+  background: var(--color-blue);
 }
 
 .services .service-item:hover h3 {
@@ -1064,7 +1065,7 @@ section {
 
 
 .hero .btn-get-started:hover {
-  background-color: var(--color-blue);
+  background-color: var(--color-hover-blue);
   border-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -1153,16 +1154,6 @@ section {
   line-height: 1;
   color: var(--color-blue);
 }
-
-.hero .icon-box:hover {
-  background: var(--color-default);
-}
-
-.hero .icon-box:hover .title a,
-.hero .icon-box:hover .icon {
-  color: var(--color-white);
-}
-
 /*--------------------------------------------------------------
 # Blog
 --------------------------------------------------------------*/
